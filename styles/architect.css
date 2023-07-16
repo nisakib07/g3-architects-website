@@ -147,6 +147,18 @@ main {
   nav {
     flex-direction: column;
   }
+
+  .features {
+    flex-direction: column;
+  }
+
+  .feat-img-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .feat-text {
+    padding: 0 20px;
+  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -155,5 +167,16 @@ main {
   }
   header {
     padding: 50px;
+  }
+  .features {
+    flex-direction: column;
+    align-items: start;
+  }
+
+  .feat-img-container {
+    margin: 0 auto;
+  }
+  .feat-text {
+    padding-left: 70px;
   }
 }
