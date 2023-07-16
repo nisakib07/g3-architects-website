@@ -82,6 +82,61 @@ nav a {
   width: 100%;
 }
 
+/* main section */
+
+main {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* features section */
+.features {
+  display: flex;
+  margin-top: 85px;
+  align-items: center;
+  gap: 76px;
+}
+
+.feat-img-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 23px;
+}
+
+.feat-text {
+  max-width: 530px;
+}
+
+.feat-title {
+  margin-bottom: 24px;
+  font-size: 2.813rem;
+}
+
+.gray {
+  color: #727272;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.bold {
+  color: #131313;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.orange {
+  color: #ff900e;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.feat-description {
+  color: #727272;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
 /* responsive section */
 
 @media screen and (max-width: 576px) {
