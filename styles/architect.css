@@ -89,7 +89,7 @@ main {
   margin: 0 auto;
 }
 
-/* teamures section */
+/* teams section */
 .teams {
   display: flex;
   margin-top: 85px;
@@ -180,6 +180,33 @@ main {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
+}
+
+.facts-card-container {
+  display: flex;
+  margin-top: 100px;
+  justify-content: space-around;
+  text-align: center;
+}
+.card {
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 60px 36px;
+}
+
+.card-stats {
+  color: #424242;
+  font-size: 2.813rem;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.card-title {
+  color: #727272;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 600;
 }
 
 @media screen and (min-width: 576px) and (max-width: 992px) {
