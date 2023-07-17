@@ -86,8 +86,10 @@ nav a {
 
 main,
 footer {
-  max-width: 1440px;
-  margin: 0 auto;
+  /* max-width: 1440px; */
+  /* margin: 0 auto; */
+  /* padding: 0px 240px; */
+  margin: 0px 240px;
 }
 
 /* teams section */
