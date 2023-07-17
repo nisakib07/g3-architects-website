@@ -84,7 +84,8 @@ nav a {
 
 /* main section */
 
-main {
+main,
+footer {
   max-width: 1440px;
   margin: 0 auto;
 }
@@ -192,6 +193,10 @@ main {
   font-size: 1rem;
 }
 
+.feature-img img {
+  margin-left: 100px;
+}
+
 .ten-years {
   border-radius: 8px;
   background: #ff900e;
@@ -199,6 +204,9 @@ main {
   text-align: center;
   color: white;
   padding: 45px 42px;
+  position: relative;
+  bottom: 120px;
+  /* right: 50px; */
 }
 
 .ten-years h2 {
@@ -289,6 +297,21 @@ main {
   align-items: center;
 }
 
+/* footer */
+footer {
+  border-radius: 8px;
+  background: #fff4e7;
+  margin-top: 130px;
+  text-align: center;
+  padding: 39px;
+}
+
+.footer-text {
+  color: #424242;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
 /* responsive section */
 
 @media screen and (max-width: 576px) {
@@ -312,6 +335,10 @@ main {
     padding: 0 20px;
   }
 
+  .features {
+    flex-direction: column;
+  }
+
   .facts {
     padding: 20px;
   }
@@ -324,6 +351,15 @@ main {
   .sponsor-img {
     flex-direction: column;
     gap: 20px;
+  }
+
+  .feature-img img {
+    width: 100%;
+    margin-left: 0px;
+  }
+
+  .ten-years {
+    width: 80%;
   }
 }
 
@@ -346,8 +382,13 @@ main {
     padding-left: 5rem;
   }
 
+  .features {
+    flex-direction: column;
+  }
+
   .facts {
     padding: 20px;
+    margin: 0;
   }
 
   .sponsor-img {
